@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "con": "node ./src/contract",
+    "dep": "node ./src/deploy",
+    "depraw": "node ./src/deployraw"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.3",
+    "ethereumjs-tx": "^2.1.2",
+    "web3": "^1.6.1"
+  }
+}
